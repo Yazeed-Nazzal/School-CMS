@@ -1,0 +1,283 @@
+* {
+    font-family: 'Mukta', sans-serif;
+
+}
+
+body {
+    background-color: #F1F2F3;
+}
+
+.Welcome {
+    background-image: url("../Images/welcome.png");
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 600px;
+}
+
+.welcome-nav a {
+    color: #7395AE;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #557A96;
+}
+
+#app .navbar {
+    background-color: #6587A0;
+    color: #938E94;
+    z-index: 1000;
+}
+
+#app .navbar a {
+    color: white;
+}
+
+#app .dropdown-menu a {
+    color: #557A96;
+}
+
+#app .Nav-Item button {
+    color: white;
+
+}
+
+#app .Nav-Item button:focus {
+    box-shadow: none;
+
+}
+
+#app .header {
+    color: #5D5C61;
+    font-weight: 700;
+}
+
+.New-group label {
+    color: #557A96;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.New-Img {
+    height: 400px;
+    background-image: url("../Images/new.png");
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+    -moz-box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+    box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+
+
+}
+
+.Img-Page {
+    background-image: url("../Images/Wave-20s-1545px.png");
+    background-size: cover;
+    height: 800px;
+    color: white;
+    padding-top: 120px;
+}
+
+.Img-Page table {
+    background-color: white;
+    color: #557A96;
+    font-size: 22px;
+}
+
+.Img-Page h1 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.Class-Student h1 {
+    font-size: 40px;
+}
+
+.Class-Student .table {
+    background-color: white;
+    font-size: 20px;
+}
+
+.btn-costum {
+    background-color: #557A96;
+    color: white;
+}
+
+.btn-costum:hover {
+    color: white;
+}
+
+.btn-costum:focus {
+    box-shadow: none;
+}
+
+.Img-Page a {
+    color: white;
+    text-decoration: none;
+}
+
+.Edit-Img {
+    height: 400px;
+    background-image: url("../Images/undraw_children_4rtb.png");
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+    -moz-box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+    box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+
+}
+
+.btn a {
+    color: white;
+}
+
+.btn-costum2 {
+    color: #557A96;
+    background-color: #F1F2F3;
+}
+
+.btn-costum2 a {
+    color: #557A96;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Student-Img {
+    margin: 0px auto;
+    height: 300px;
+    width: 300px;
+    background-image: url("../Images/undraw_mathematics_4otb.png");
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+    -moz-box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+    box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+
+}
+
+.Teacher-Img {
+    height: 400px;
+    background-image: url("../Images/undraw_professor_8lrt.png");
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+    -moz-box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+    box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+
+}
+
+.Home-Img {
+    height: 400px;
+    background-image: url("../Images/undraw_financial_data_es63.png");
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+    -moz-box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+    box-shadow: -1px 4px 24px -6px rgba(101, 135, 160, 1);
+    z-index: 1000;
+    border-radius: 10px;
+
+}
+
+.Home {
+    margin-top: 100px;
+}
+
+/* ---- reset ---- */
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats, .count-particles {
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}
+.Statistics
+{
+    background-color: #6587A0;
+    margin-right: 50px;
+    padding: 20px;
+    height: 110px;
+    color: white;
+    border-radius: 5px 25px 5px 25px;
+    transition: 500ms;
+}
+.Statistics:hover
+{
+    border-radius: 25px 5px 25px 5px;
+    transition: 500ms;
+
+}
+.Statistics p
+
+{
+    font-size: 16px;
+    font-weight: 700;
+}
+tr
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.page-item.active .page-link
+{
+    background-color: #557A96;
+    color: white;
+    border: none;
+}
+.Img-Page .page-link {
+    color: #557A96;
+    text-decoration: none;
+}
+.page-link:focus
+{
+    box-shadow: none;
+}
+
